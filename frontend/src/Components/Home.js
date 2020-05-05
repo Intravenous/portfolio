@@ -27,7 +27,7 @@ const Home = () => {
         </div>
 
         {/* <!-- Hero footer: will stick at the bottom --> */}
-        <div clasclassNames="hero-foot">
+        <div className="hero-foot">
           <nav className="tabs">
             <div className="container">
               <ul>
@@ -51,6 +51,16 @@ const Home = () => {
             <h1 className="title">
               About Me
             </h1>
+
+            <div className="columns">
+              <div className="column">
+                First column - Picture
+              </div>
+              <div className="column">
+                Second column - Words
+              </div>
+
+            </div>
           </div>
         </div>
       </section>
@@ -101,6 +111,14 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <footer className="footer">
+        <div className="content has-text-centered">
+          <p>
+            Made with Love and Code by Gordon Gyakyi
+          </p>
+        </div>
+      </footer>
 
     </main>
   )

@@ -8,7 +8,7 @@ import './styles/style.scss'
 
 //Internal Files
 import Home from './Components/Home'
-import TestBed from './Components/TestBed'
+// import TestBed from './Components/TestBed'
 // import NavBar from './Components/NavBar'
 
 
@@ -18,7 +18,7 @@ const App = () => (
     {/* <NavBar /> */}
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/" component={TestBed} />
+      {/* <Route exact path="/" component={TestBed} /> */}
 
     </Switch>
   </BrowserRouter>

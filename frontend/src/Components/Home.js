@@ -63,7 +63,7 @@ const Home = () => {
             <h1 id="about" className="title has-text-centered section-head">
               About Me
             </h1>
-            <div className="columns is-vcentered">
+            <div className="columns has-text-centered is-vcentered">
               <div className="column">
                 {/* First column - Picture */}
                 <img id="headshot" src="https://www.dropbox.com/s/cbz0kgl2a9s1uo2/Gordon-circle.png?raw=1" alt="Gordon's Profile" />
@@ -71,19 +71,14 @@ const Home = () => {
               </div>
               <div className="column">
 
-                {/* <div className="tile is-parent">
-                <article className="tile is-child box">
-              <p>Hello, my name's Gordon! I'm an aspiring full stack web developer, enrolled on General Assembly's Software Enginnering Immersive course.
-                In a previous life I was a senior Business Analyst with twenty years experience in the Investment Banking sector, primarily in the area of Reference Data Management. Although it was a career that I enjoyed and one where I had a proven track record of helping to deliver successful outcomes in a number of projects and business process re-engineering initiatives, I can to the colculsion that I both wanted an needed to try something different for the next stage of my career.</p>
-                </article>
-              </div> */}
                 <div className="container">
                   <div className="notification">
-                    <p>Hi, my name's Gordon! I'm an a Junior full-stack developer and a graduate of General Assembly's Software Engineering Immersive course.<br /><br />
+                    <p>Greetings! My name&apos;s Gordon! I&apos;m a junior full-stack developer and graduate of General Assembly&apos;s Software Engineering Immersive course. I enrolled on the course to scratch an itch and to supercharge a career change into software engineering. <br /><br />
 
-                    In a previous life I was a Senior Business Analyst with twenty years experience in the Investment Banking sector, primarily in the area of Reference Data Management.<br /><br />
+                    In a previous life I was a Senior Business Analyst with twenty years’ experience in the Investment Banking sector, primarily in Reference Data Management. Although it was a career I enjoyed, I concluded towards the end of 2019, that I both wanted and needed to try something different. Ultimately, that desire led me to take the course at GA and leaves me excited to embark on a new career path. <br /><br />
 
-                    Although it was a career that I enjoyed and one where I had a proven track record of helping to deliver successful outcomes in a number of projects and business process re-engineering initiatives, I came to the conclusion that I both wanted and needed to try something different for the next stage of my career.
+                    Outside of work, I’m a keen runner, which I find is a godsend for both physical and mental wellbeing. I&apos;ve always had a passion for music, in all it&apos;s forms. Whether that be DJing, gigging, listening to it or heading off to Glastonbury. Last, but certainly not least, I&apos;m a real travel lover. Experiencing new cultures, as well as beautiful locations, is something that I continue to find fascinating and For me, travelling is a fast track to knowledge, without actually having to study.
+
                     </p>
                   </div>
                 </div>
@@ -211,7 +206,8 @@ const Home = () => {
               Projects
             </h1>
             <div className="tile is-ancestor">
-              <div className="tile is-parent">
+              {/* 'over' added below for overlay */}
+              <div className="tile is-parent over">
                 <article className="tile is-child box">
                   <h4>Land of the Snake</h4>
                   <p>SEI Project One</p>
@@ -219,49 +215,93 @@ const Home = () => {
                     <img src="https://i.imgur.com/fqvfPaGh.png" />
                   </figure>
                   {/* <Link target="_blank" rel="noopener noreferrer" to='/https://intravenous.github.io/project-1/'>Deployed Project</Link> */}
-                  <a target="_blank" rel="noopener noreferrer" href="/https://intravenous.github.io/project-1">Deployed Project</a><br />
-                  <a target="_blank" rel="noopener noreferrer" href="/https://github.com/Intravenous/project-1">Repository</a>
+                  {/* Beloow blanked out for overlay addition */}
+                  {/* <a target="_blank" rel="noopener noreferrer" href="/https://intravenous.github.io/project-1">Deployed Project</a><br />
+                  <a target="_blank" rel="noopener noreferrer" href="/https://github.com/Intravenous/project-1">Repository</a> */}
                   {/* <p className="title">One</p>
                   <p className="subtitle">Subtitle</p> */}
                 </article>
+                {/* Added Below for overlay*/}
+                <div className="overlay">
+                  <div className="text">
+                    My First SEI Project. A one-week solo project to build a grid-based game, using vanilla JavaScript, HTML and CSS.<br /><br />
+                    It was based on the classic arcade game snake and built entirely in Vanilla JavaScript.<br /><br />
+                    <a target="_blank" rel="noopener noreferrer" href="/https://intravenous.github.io/project-1">Deployed Project</a><br />
+                    <a target="_blank" rel="noopener noreferrer" href="/https://github.com/Intravenous/project-1">Repository</a>
+                  </div>
+                </div>
+                {/* Added for overlay */}
               </div>
-              <div className="tile is-parent">
+              {/* 'over' added below for overlay */}
+              <div className="tile is-parent over">
                 <article className="tile is-child box">
                   <h4>Soundtrack</h4>
                   <p>SEI Project Two</p>
                   <figure>
                     <img src="https://i.imgur.com/dRWtKn5h.jpg" />
                   </figure>
-                  <a target="_blank" rel="noopener noreferrer" href="https://intravenous.github.io/project-2">Deployed Project</a><br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/Project-2">Repository</a>
+                  {/* <a target="_blank" rel="noopener noreferrer" href="https://intravenous.github.io/project-2">Deployed Project</a><br />
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/Project-2">Repository</a> */}
                 </article>
+                {/* Added Below for overlay*/}
+                <div className="overlay">
+                  <div className="text">
+                    A multi-page React application that consumed and used the Deezer music API, also utilised Bulma and CSS.<br /><br />
+                    The application takes a user’s birthdate and returns the number one single in the UK for each year, since they were born.<br /><br />
+                    <a target="_blank" rel="noopener noreferrer" href="https://intravenous.github.io/project-2">Deployed Project</a><br />
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/Project-2">Repository</a>
+                  </div>
+                </div>
+                {/* Added for overlay */}
               </div>
-              <div className="tile is-parent">
+              {/* 'over' added below for overlay */}
+              <div className="tile is-parent over">
                 <article className="tile is-child box">
                   <h4>BookedUp</h4>
                   <p>SEI Project Three</p>
                   <figure>
                     <img src="https://i.imgur.com/dflUP27h.png" />
                   </figure>
-                  <a target="_blank" rel="noopener noreferrer" href="https://booked-up.herokuapp.com/">Deployed Project</a><br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-3">Repository</a>
+                  {/* <a target="_blank" rel="noopener noreferrer" href="https://booked-up.herokuapp.com/">Deployed Project</a><br />
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-3">Repository</a> */}
                 </article>
+                {/* Added Below for overlay*/}
+                <div className="overlay">
+                  <div className="text">
+                    A seven-day group project, to build a full-stack application using React for the front end and an Express API to serve a Mongo database for the back end.
+                    <br /><br />
+                    Our project created a personal library for the user, that enabled them to login, browse for books and save those books to their accounts.<br /><br />
+                    <a target="_blank" rel="noopener noreferrer" href="https://booked-up.herokuapp.com/">Deployed Project</a><br />
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-3">Repository</a>
+                  </div>
+                </div>
+                {/* Added for overlay */}
               </div>
-              <div className="tile is-parent">
+              {/* 'over' added below for overlay */}
+              <div className="tile is-parent over">
                 <article className="tile is-child box">
                   <h4>L.A.B.S</h4>
                   <p>SEI Project Four</p>
                   <figure>
                     <img src="https://i.imgur.com/Fs7PSSfh.png" />
                   </figure>
-                  <a target="_blank" rel="noopener noreferrer" href="https://proj-labs.herokuapp.com/#/">Deployed Project</a><br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-4">Repository</a>
+                  {/* <a target="_blank" rel="noopener noreferrer" href="https://proj-labs.herokuapp.com/#/">Deployed Project</a><br />
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-4">Repository</a> */}
                 </article>
+                {/* Added Below for overlay*/}
+                <div className="overlay">
+                  <div className="text">
+                    A seven-day group project, to build a full-stack application using React and CSS for the front end and Django / PostgreSQL database for the back end. The application implemented CRUD functionality and was a prototype medical booking system.<br /><br />
+                    <a target="_blank" rel="noopener noreferrer" href="https://proj-labs.herokuapp.com/#/">Deployed Project</a><br />
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-4">Repository</a>
+                  </div>
+                </div>
+                {/* Added for overlay */}
               </div>
             </div>
 
             <div className="tile is-ancestor">
-              <div className="tile is-parent is-3">
+              <div className="tile is-parent is-3 over">
                 <article className="tile is-child box">
                   <figure>
                     <img src="https://i.imgur.com/b291JuG.jpg" />
@@ -269,6 +309,13 @@ const Home = () => {
                   <h4>The Crate</h4>
                   <p>Personal Side Project</p>
                 </article>
+                {/* Added Below for overlay*/}
+                <div className="overlay">
+                  <div className="text">
+                    <strong>COMING SOON</strong>
+                  </div>
+                </div>
+                {/* Added for overlay */}
               </div>
 
             </div>
@@ -288,10 +335,36 @@ const Home = () => {
               Experience
             </h1>
             <div className="notification">
-              To be decided...
-              {/* This container is <strong>fluid</strong>: it will have a 32px gap on either side, on any
-                viewport size. */}
-              {/* </div> */}
+              <div className="columns">
+
+                <div className="column" >
+                  <p className="title experience-subtitle">Education</p>
+                  <p className="company-name">General Assembly</p>
+                  <p><span>Software Engineering Immersive</span> • Feb - April 2020</p> <br />
+                  <p>When I enrolled in the course, my aim was to immersing myself in the subject with likeminded people and build on the independent online courses that I had undertaken. After completiing the course, I’m glad to report that I feel that I achieved those aims. <br /> <br />
+
+                  Looking to the future, I’m really looking forward to continuing my learning journey. The opportunity to mix my new skills as a developer, with the skills I developed in my previous life as a Business Analyst really excites me. <br /> <br />
+                  </p>
+                  <p className="company-name">Queen Mary University of London</p>
+                  <p><span> BA (Hons) Politics</span> • July 1994 - July 1997</p> <br />
+                  <p>My degree in Politics, first and foremost allowed me to study a subject that I found and still do find, fascinating. It also allowed me to confirm that it wasn’t something that I wanted to pursue in terms of a career, despite my continuing fascination with the subject. <br /><br /> Although not wishing to pursue a career in my chosen field of study, I found that the skills of critical thinking, the art of persuasion and the ability to communicate thoughts in the written word, all to be valuable tools in both my career and life in general. It also gave me the chance to study abroad for a year in the United States and that is something that I am eternally grateful for.</p>
+                  <br /> <br />
+                  <p className="title experience-subtitle">Work</p>
+                  <p className="company-name">UBS</p>
+                  <p><span>Risk Reference Data Business Analyst</span> • Jun 2017 – Dec 2019</p> <br />
+                  <p>At UBS, I was the Lead Business Analyst in Risk for two reference data domains and the key Risk business contact for both Risk and Operations IT. Tasks included: writing Business Specification documents, reviewing Functional Specification documents and providing UAT support for key system changes.</p>
+                  <br />
+                  <p className="company-name">HSBC</p>
+                  <p><span>Global Standards Data Readiness Business Analyst</span> • May 15 – Jun 17</p> <br />
+                  While at HBSC, I re-organised and chaired the Global Standards Reference Data Forum. The forum included all HSBC lines of business as well as representation from Operations, IT and Risk. I was also the Business Analyst on the Data Readiness Transaction Monitoring and Sanctions Payment Screening project.
+                  <br /><br />
+                  <p> For a full career breakdown, please refer to my <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gordon-gyakyi-99419b1a/">
+                    LinkedIn
+                  </a> profile.</p>
+                </div>
+
+              </div>
+
             </div>
 
           </div>

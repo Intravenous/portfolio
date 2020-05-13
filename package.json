@@ -1,13 +1,15 @@
 {
-  "name": "my-project-3",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "homepage": "https://Intravenous.github.io/portfolio",
   "scripts": {
     "seed": "node backend/seeds.js",
     "serve:back": "nodemon backend/app.js",
     "serve:front": "webpack-dev-server --mode-development",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "deploy": "npm build && gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",

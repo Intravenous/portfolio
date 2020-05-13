@@ -329,7 +329,6 @@ const Home = () => {
       <section className="experience hero is-fullheight">
 
         <div id="experience-section" className="hero-body">
-          {/* <div className="container"> */}
           <div className="container is-fluid">
             <h1 id="experience" className="title has-text-centered section-head">
               Experience
@@ -341,7 +340,7 @@ const Home = () => {
                   <p className="title experience-subtitle">Education</p>
                   <p className="company-name">General Assembly</p>
                   <p><span>Software Engineering Immersive</span> • Feb - April 2020</p> <br />
-                  <p>When I enrolled in the course, my aim was to immersing myself in the subject with likeminded people and build on the independent online courses that I had undertaken. After completiing the course, I’m glad to report that I feel that I achieved those aims. <br /> <br />
+                  <p>When I enrolled in the course, my aim was to immersing myself in the subject with likeminded people and build on the independent online courses that I had undertaken. After completing the course, I’m glad to report that I feel that I achieved those aims. <br /> <br />
 
                   Looking to the future, I’m really looking forward to continuing my learning journey. The opportunity to mix my new skills as a developer, with the skills I developed in my previous life as a Business Analyst really excites me. <br /> <br />
                   </p>
@@ -359,10 +358,9 @@ const Home = () => {
                   While at HBSC, I re-organised and chaired the Global Standards Reference Data Forum. The forum included all HSBC lines of business as well as representation from Operations, IT and Risk. I was also the Business Analyst on the Data Readiness Transaction Monitoring and Sanctions Payment Screening project.
                   <br /><br />
                   <p> For a full career breakdown, please refer to my <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gordon-gyakyi-99419b1a/">
-                    LinkedIn
+                    Linkedin
                   </a> profile.</p>
                 </div>
-
               </div>
 
             </div>

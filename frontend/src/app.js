@@ -14,7 +14,7 @@ import Home from './Components/Home'
 
 const App = () => (
 
-  <BrowserRouter basename='portfolio'>
+  <BrowserRouter>
     {/* <NavBar /> */}
     <Switch>
       <Route exact path="/" component={Home} />
